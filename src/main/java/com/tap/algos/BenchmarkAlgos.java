@@ -11,15 +11,6 @@ public class BenchmarkAlgos {
     @Measurement(iterations = 3)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     @Fork(value = 0, warmups = 1)
-    public void benchMarkInsertion() {
-    }
-
-    @Benchmark
-    @Warmup(iterations = 1)
-    @BenchmarkMode(Mode.AverageTime)
-    @Measurement(iterations = 3)
-    @OutputTimeUnit(TimeUnit.NANOSECONDS)
-    @Fork(value = 0, warmups = 1)
     public void benchMarkQS() {
     }
 
