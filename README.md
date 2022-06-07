@@ -1,3 +1,3 @@
 # Algorithms-java
 
-Algorithms Lecture for Infinite Lambda's Talent Accelerator
+Common algorithms implemented in Java
